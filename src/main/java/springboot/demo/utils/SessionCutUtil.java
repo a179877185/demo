@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * session 截取 省份
- * @author chenxb
+ * @author hyq
  *
  */
 public class SessionCutUtil {
