@@ -1,0 +1,7 @@
+server:
+  port: 8082
+
+person:
+  name: 冯欣欣
+  age: 18
+  maps: {XG: 善良, WM: 美丽}
