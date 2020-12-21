@@ -81,7 +81,7 @@ public class StringUtils extends org.springframework.util.StringUtils {
 	}
 	/**
 	 * 使字符串数组转为list<String>
-	 * @param target
+	 * @param strArr
 	 * @return
 	 */
 	public static List<String> stringArr2List(String[] strArr){
@@ -381,7 +381,7 @@ public class StringUtils extends org.springframework.util.StringUtils {
 	 */
 	public static String deleteWhitespace(String str)
 	 {
-	      if (StringUtils.isEmpty(str)) {
+	      if (StringUtils.isStrNull(str)) {
 	        return str;
 	      }else {
 	    	  str = str.trim();

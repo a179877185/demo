@@ -1,6 +1,7 @@
 package springboot.demo.utils;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -36,9 +37,10 @@ public class SessionCutUtil {
 			String str = sessionId.split("_")[2];
 			String[] arr=str.split("\\|");
 			System.out.println(arr[0]);
-			for (int i = 0; i < arr.length; i++) {
-				list.add(arr[i]);
-			}
+//			for (int i = 0; i < arr.length; i++) {
+//				list.add(arr[i]);
+//			}
+			Collections.addAll(list, arr);
 		}
 		System.out.println(list);
 	}
